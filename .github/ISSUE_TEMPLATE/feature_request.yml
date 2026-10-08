@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement or a new capability for DevBoxMobile.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. Please describe the problem you are trying
+        to solve, not only the solution you have in mind — that helps in finding
+        the best fit for the app.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: "When I manage several servers, I have to …"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like DevBoxMobile to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have tried
+      description: Optional. Other apps, manual workarounds, or existing features.
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Where do you mainly use the app?
+      placeholder: "iPhone 16 Pro, iPad Air 13-inch, both"
+    validations:
+      required: false

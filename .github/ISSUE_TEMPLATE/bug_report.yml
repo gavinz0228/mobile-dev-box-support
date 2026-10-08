@@ -1,0 +1,70 @@
+name: Bug report
+description: Something in DevBoxMobile is broken or behaves unexpectedly.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve DevBoxMobile.
+
+        **Do not include passwords, SSH keys, tokens, private hostnames, or IP
+        addresses.** Redact anything sensitive before posting.
+  - type: input
+    id: version
+    attributes:
+      label: App version and build
+      description: Shown in Settings → Help & Feedback.
+      placeholder: "1.1.8 (40)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: "iPad Air 13-inch (M3), iPadOS 26.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: remote
+    attributes:
+      label: Remote server type (if the problem involves a remote feature)
+      options:
+        - Not applicable
+        - Linux
+        - macOS
+        - Windows
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, and how often does it happen?
+      placeholder: |
+        1. Open Servers and select …
+        2. Tap Manage Docker …
+        3. Tap Inspect …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Include the exact error text from the app, with credentials removed.
+    validations:
+      required: true
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshots or additional context
+      description: Optional. Screenshots often make a bug much faster to fix.
+    validations:
+      required: false

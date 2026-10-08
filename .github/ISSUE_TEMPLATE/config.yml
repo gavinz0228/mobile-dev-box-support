@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Privacy or security concern
+    url: https://github.com/gavinz0228/mobile-dev-box-support/blob/main/SECURITY.md
+    about: Read the security policy before reporting. Do not publish sensitive details.
+  - name: Privacy policy
+    url: https://github.com/gavinz0228/mobile-dev-box-support/blob/main/PRIVACY.md
+    about: How DevBoxMobile handles your data.
