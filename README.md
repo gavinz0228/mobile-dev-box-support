@@ -10,6 +10,8 @@
 </p>
 
 <p align="center">
+  <a href="https://apps.apple.com/app/id6794737314">Download on the App Store</a>
+  ·
   <a href="https://github.com/gavinz0228/mobile-dev-box-support/issues">Report a bug</a>
   ·
   <a href="https://github.com/gavinz0228/mobile-dev-box-support/issues">Request a feature</a>
